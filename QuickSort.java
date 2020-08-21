@@ -28,11 +28,11 @@ class Sort
         if(start<end)
         {
             int pivot = arr[end];
-            int i=0,j=0;
+            int i=start,j;
             
-            for(j=0;j<end;j++)
+            for(j=start;j<end;j++)
             {
-              if(arr[j]<pivot)
+              if(arr[j]<=pivot)
               {
                   int tmp=arr[i];
                   arr[i]=arr[j];
