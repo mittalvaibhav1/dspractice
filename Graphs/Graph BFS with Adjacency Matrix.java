@@ -65,7 +65,7 @@ public class Main
         
         for(int i = 0 ; i < g.numberOfVertices ; i++)
         {
-            g.bfs(0,visited);//For Disconnected Graph
+            g.bfs(i,visited);//For Disconnected Graph
         }
 	}
 }
